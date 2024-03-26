@@ -360,7 +360,7 @@ output "lb_dns_name" {
 
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "sairam2610"  
+  bucket = "sairam261093"  
 
   acl    = "private"  
   versioning {
@@ -380,5 +380,5 @@ default = ["user1", "user2", "user3", "user4"]
 }
 
 resource "aws_iam_group" "two" {
-name = "sairam"
+name = "sairam2610"
 }
